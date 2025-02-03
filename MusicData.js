@@ -26,9 +26,9 @@ class Playlist {
 
   getInfo() {
     console.log(`The playlist 'Top Down Tuesday' has the following songs:
-    claws by Charli XCX,
-    TEXAS HOLD 'EM by Beyonce, &
-    Oh to Be in Love by Kate Bush.`);
+    ${this.song1.title} by ${this.song1.artist.name},
+    ${this.song2.title} by ${this.song2.artist.name}, &
+    ${this.song3.title} by ${this.song3.artist.name}.`);
   }
 }
 
